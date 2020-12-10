@@ -1,0 +1,83 @@
+---
+title: "Exploring factors affecting Canadians’ self-rated mental health"
+author: "Cici"
+date: "5 December 2020"
+abstract: |
+ | There are multiple factors that cause people's mental health problems. In this paper, we explored the Canadian General Social Survey (GSS), Cycle 30, 2016: Canadians at work and at home, and fitted a regression model based on factors related to self-rated mental health with R. What is important is that it can not only roughly predict individual mental health, but also remind people to pay more attention to their mental health, especially during the COVID-19 pandemic periods. 
+ |
+ | **Keywords:** Canadian well being; Self rated mental health; COVID-19; Stress; Regression analysis with R.
+output: pdf_document
+---
+
+
+# Introduction
+
+Pervasive mental health problems have always been a topic of concern to researchers and the public. According to the Canadian Mental Health Association, approximately one in five people in Canada will experience mental health problems or illnesses in any given year, and before the age of 40, nearly half of the population will suffer from mental illness or have previously suffered from mental illness. (Canadian Mental Health Association, n.d.) It is obvious that people’s mental health problems deserve attention. Especially in the current COVID-19 epidemic, the new disease has brought people a certain amount of panic. Meanwhile, a number of measures that try to prevent the spread of the virus, such as maintaining a safe distance during isolation, the closure of public entertainment places, make people feel isolated and lonely, causing increased stress and anxiety. (CDC, 2020) How people deal with the stress during this pandemic may depend on various factors and different coping styles may lead to different mental health conditions. Therefore, it is important to find the relationship between people's assessment of their own mental health and relevant factors.
+
+We utilized the dataset about Canadian General social survey(GSS), Cycle 30, 2016: Canadians at work and home, which was conducted from August 2 to December 23, 2016. It was a sample survey with a cross-sectional design and covered 10 provinces of Canada. Non-institutionalized personnel aged 15 and above were the target population. This survey provided information on social trends about working conditions, family status, time utilization, sources of stress, and how these factors affect the well beings of Canadians. (GSS, 2016) Different aspects such as social environment, family environment, education level, and lifestyle have influences on people's general mental health (Fei Guo, Zheng Huang, Zhiyan Chen, 2019). This report mainly examined which of these factors can strongly affect individuals’ self-rated mental health and how to roughly predict it.
+
+Below is the data section, we will introduce the data set and focus on several variables we choose, then conduct the regression analysis with R and obtain the regression model, which followed by multiple figures and tables in the result section. Finally in the discussion section, we will discuss our findings based on the model results as well as some weaknesses and opportunities for future work.
+
+
+
+# Data
+
+to be continued...
+
+
+
+## Data Selection and Visualization
+
+to be continued...
+
+
+
+# Model
+
+to be continued...
+
+
+
+
+
+# Discussion
+
+to be continued...
+
+
+
+
+
+# Weakness and Next Step
+
+to be continued...
+
+
+
+
+
+# Appendix
+
+Code for this analysis is available at: 
+
+
+# Reference
+
+- Canadian Mental Health Association. (n.d.). Fast Facts about Mental Illness. Retrieved 8 December, 2020, from https://cmha.ca/fast-facts-about-mental-illness 
+
+- Centers for Disease Control and Prevention. (December 8, 2020). Coping with Stress. Retrieved 8 December, 2020, from https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/managing-stress-anxiety.html
+
+- Fei Guo, Zheng Huang, Zhiyan Chen. (January 2019). Survey of National Mental Health. Retrieved 8 December, 2020, from https://www.doc88.com/p-6704773791785.html
+
+- General Social Survey (GSS), Cycle 30, 2016 : Canadians at Work and Home.
+
+- Mental Health Commission Of Canada. (n.d.). MHCC Annual Report 2013-14. Retrieved 8 December, 2020, from https://www.mentalhealthcommission.ca/English/document/61101/mhcc-annual-report-2013-14
+
+
+
+
+
+
+
+
+
